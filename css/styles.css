@@ -1,0 +1,386 @@
+:root {
+  --primary-wite-color: #fffff;
+  --main-accent-color: #064d7c;
+
+  --primary-text-color: rgb(0, 0, 0);
+  --text-color: rgb(117, 117, 117);
+  --secondary-text-color: #dedee2;
+  --sidebar-color: #064d7c;
+  --btn-backgraund-color: rgb(221, 221, 221);
+}
+
+/* --sidebar-color: #03a9ac; */
+html {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--background-color);
+  color: var(--primary-text-color);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  max-width: 1200px;
+  background-color: var(--primary-wite-color);
+  margin: 37px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* content */
+
+.content {
+  padding: 33px 100px;
+  background-color: #dedee2;
+}
+
+.main-conent-title {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 1.23;
+  margin-bottom: 30px;
+}
+
+/* about me section */
+
+.about-me {
+  margin: 0 0 37px 0;
+}
+
+.about-me-profesion {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.22;
+  margin-top: 22px;
+}
+
+.about-me-name {
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 1.18;
+  text-transform: uppercase;
+
+  color: var(--main-accent-color);
+}
+
+.content-section {
+  margin-top: 20px;
+  border-top: 2px solid var(--main-accent-color);
+  padding-top: 20px;
+}
+
+.no-border {
+  border: none;
+}
+
+.about-me-description {
+  font-size: 14px;
+  line-height: 1.71;
+  color: #37244d;
+}
+
+/*experience*/
+
+.my-work-experience {
+  margin-bottom: 45px;
+  background-color: var(--background-color);
+}
+
+.my-work-experience-item {
+  margin-top: 20px;
+}
+
+.my-work-experience-company {
+  color: var(--main-accent-color);
+  margin-left: 5px;
+}
+
+.my-work-experience-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-duties {
+  padding: 0 0 0 18px;
+  list-style: square outside;
+}
+
+.my-work-experience-duty {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #595959;
+}
+
+.my-work-experience-company-block {
+  margin: 0 15px 0 0;
+}
+
+/*Education*/
+
+.my-education-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.23;
+  margin-bottom: 30px;
+}
+
+.my-education-university {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--sidebar-color);
+}
+
+.my-education-faculty {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  margin-top: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/*sidebar-section*/
+
+.sidebar-section {
+  background-color: var(--sidebar-color);
+
+  color: var(--secondary-text-color);
+}
+
+.contacts,
+.tech-skills,
+.soft-skills {
+  margin: 50px 0 0 0;
+  padding: 0 37px;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  line-height: 1.23;
+  color: var(--primary-wite-color);
+  margin-bottom: 20px;
+}
+
+/*contacts section*/
+
+.contact-section-types {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--primary-wite-color);
+  margin-right: 7px;
+}
+
+.link {
+  color: var(--primary-wite-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.29;
+  text-decoration: none;
+  fill: currentColor;
+
+  display: block;
+
+  transition: color 250ms linear;
+}
+
+.link-icon {
+  margin-right: 10px;
+  margin-bottom: -3px;
+}
+
+.link:hover {
+  color: #a3a8d4;
+}
+
+/*tech skills section*/
+
+.tech-skills-list {
+  padding: 0;
+  list-style: square inside;
+}
+
+.tech-skills-item-text,
+.soft-skills-item-text {
+  color: var(--primary-wite-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/*soft  skills section*/
+
+.soft-skills-list {
+  list-style: square inside;
+}
+
+.soft-skills-item {
+  color: var(--main-accent-color);
+}
+
+.languages {
+  margin-bottom: 50px;
+}
+
+/* photo */
+
+.photo-container {
+  margin-top: 50px;
+}
+
+.photo {
+  max-width: 370px;
+}
+
+/*project and certificats performans*/
+
+/* my project section */
+
+.my-projects {
+  margin-bottom: 50px;
+}
+
+.my-projects-list {
+  padding: 0 0 0 17px;
+}
+
+.my-projects-item {
+  color: #000;
+  font-weight: 700;
+}
+
+.my-projects-item:not(:last-child) {
+  margin-bottom: 22px;
+}
+
+.my-project-link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: var(--main-accent-color);
+}
+
+.my-projects-text {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #37244d;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.about-project {
+  padding-left: 10px;
+  font-weight: 400;
+  font-style: normal;
+
+  font-size: 14px;
+  line-height: 1.71;
+  color: #595959;
+}
+
+.about-project-github {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--main-accent-color);
+  text-decoration: none;
+}
+
+.my-projects-bracket {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #000;
+}
+
+.effect {
+  position: relative;
+}
+
+.effect::after {
+  content: '';
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  background: var(--main-accent-color);
+  transition: width 0.5s, left 0.5s;
+}
+
+.effect:hover::after {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .sidebar-section {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .photo {
+    margin: 0;
+  }
+
+  .projects {
+    flex-wrap: wrap;
+  }
+}
