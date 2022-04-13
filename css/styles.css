@@ -1,15 +1,14 @@
 :root {
-  --primary-wite-color: #fffff;
+  --primary-white-color: #ffffff;
+  --primary-text-color: #000000;
+  --secondary-text-color: #757575;
+  --bg-color: #dedee2;
   --main-accent-color: #064d7c;
-
-  --primary-text-color: rgb(0, 0, 0);
-  --text-color: rgb(117, 117, 117);
-  --secondary-text-color: #dedee2;
   --sidebar-color: #064d7c;
-  --btn-backgraund-color: rgb(221, 221, 221);
+  
 }
 
-/* --sidebar-color: #03a9ac; */
+
 html {
   box-sizing: border-box;
 }
@@ -36,7 +35,6 @@ ul {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: var(--background-color);
   color: var(--primary-text-color);
 }
 
@@ -44,7 +42,7 @@ body {
   display: flex;
   flex-direction: row-reverse;
   max-width: 1200px;
-  background-color: var(--primary-wite-color);
+  background-color: var(--primary-white-color);
   margin: 37px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
@@ -53,7 +51,7 @@ body {
 
 .content {
   padding: 33px 100px;
-  background-color: #dedee2;
+  background-color: var(--bg-color);
 }
 
 .main-conent-title {
@@ -98,14 +96,15 @@ body {
 .about-me-description {
   font-size: 14px;
   line-height: 1.71;
-  color: #37244d;
+  /* color: #37244d; */
+  color: var(--secondary-text-color);
 }
 
 /*experience*/
 
 .my-work-experience {
   margin-bottom: 45px;
-  background-color: var(--background-color);
+  
 }
 
 .my-work-experience-item {
@@ -130,8 +129,9 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.25;
-  color: #a8a8a8;
-  margin: 0 0 10px 0;
+  /* color: #a8a8a8; */
+  color: var(--secondary-text-color);
+  margin: 0 0 13px 0;
 }
 
 .my-work-experience-duties {
@@ -144,7 +144,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #595959;
+  /* color: #595959; */
+color: var(--secondary-text-color);
 }
 
 .my-work-experience-company-block {
@@ -175,6 +176,7 @@ body {
   font-size: 14px;
   line-height: 1.21;
   margin-top: 10px;
+  margin-bottom: 7px;
 }
 
 .column {
@@ -187,7 +189,7 @@ body {
 .sidebar-section {
   background-color: var(--sidebar-color);
 
-  color: var(--secondary-text-color);
+  color: var(--bg-color);
 }
 
 .contacts,
@@ -200,7 +202,7 @@ body {
 .sidebar-title {
   font-size: 22px;
   line-height: 1.23;
-  color: var(--primary-wite-color);
+  color: var(--primary-white-color);
   margin-bottom: 20px;
 }
 
@@ -210,12 +212,12 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
-  color: var(--primary-wite-color);
+  color: var(--primary-white-color);
   margin-right: 7px;
 }
 
 .link {
-  color: var(--primary-wite-color);
+  color: var(--primary-white-color);
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -234,7 +236,8 @@ body {
 }
 
 .link:hover {
-  color: #a3a8d4;
+  /* color: #a3a8d4; */
+  color: var(--secondary-text-color);
 }
 
 /*tech skills section*/
@@ -246,7 +249,7 @@ body {
 
 .tech-skills-item-text,
 .soft-skills-item-text {
-  color: var(--primary-wite-color);
+  color: var(--primary-white-color);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -290,7 +293,7 @@ body {
 }
 
 .my-projects-item {
-  color: #000;
+  color: var(--primary-text-color);
   font-weight: 700;
 }
 
@@ -315,8 +318,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  color: #37244d;
-  margin-left: 10px;
+    margin-left: 10px;
   margin-bottom: 10px;
 }
 
@@ -327,7 +329,8 @@ body {
 
   font-size: 14px;
   line-height: 1.71;
-  color: #595959;
+  
+  color: var(--secondary-text-color);
 }
 
 .about-project-github {
@@ -342,7 +345,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.71;
-  color: #000;
+  color: var(--primary-text-color);
 }
 
 .effect {
