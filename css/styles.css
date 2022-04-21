@@ -96,7 +96,7 @@ body {
 .about-me-description {
   font-size: 14px;
   line-height: 1.71;
-  /* color: #37244d; */
+  
   color: var(--secondary-text-color);
 }
 
@@ -129,7 +129,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.25;
-  /* color: #a8a8a8; */
+  
   color: var(--secondary-text-color);
   margin: 0 0 13px 0;
 }
@@ -144,7 +144,7 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  /* color: #595959; */
+  
 color: var(--secondary-text-color);
 }
 
