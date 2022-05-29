@@ -5,9 +5,7 @@
   --bg-color: #dedee2;
   --main-accent-color: #064d7c;
   --sidebar-color: #064d7c;
-  
 }
-
 
 html {
   box-sizing: border-box;
@@ -36,6 +34,7 @@ ul {
 body {
   font-family: 'Montserrat', sans-serif;
   color: var(--primary-text-color);
+  /* background-color: var(--bg-color); */
 }
 
 .main-container {
@@ -54,29 +53,29 @@ body {
   background-color: var(--bg-color);
 }
 
-.main-conent-title {
+.main-content-title {
   font-weight: bold;
   font-size: 22px;
   line-height: 1.23;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 }
 
 /* about me section */
 
 .about-me {
-  margin: 0 0 37px 0;
+  margin: 0 0 28px 0;
 }
 
 .about-me-profesion {
   font-weight: 700;
-  font-size: 22px;
+  font-size: 20px;
   line-height: 1.22;
-  margin-top: 22px;
+  margin-bottom: 22px;
 }
 
 .about-me-name {
   font-weight: 700;
-  font-size: 55px;
+  font-size: 50px;
   line-height: 1.18;
   text-transform: uppercase;
 
@@ -86,7 +85,7 @@ body {
 .content-section {
   margin-top: 20px;
   border-top: 2px solid var(--main-accent-color);
-  padding-top: 20px;
+  padding-top: 28px;
 }
 
 .no-border {
@@ -96,15 +95,14 @@ body {
 .about-me-description {
   font-size: 14px;
   line-height: 1.71;
-  
+
   color: var(--secondary-text-color);
 }
 
 /*experience*/
 
 .my-work-experience {
-  margin-bottom: 45px;
-  
+  margin-bottom: 28px;
 }
 
 .my-work-experience-item {
@@ -129,7 +127,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.25;
-  
+
   color: var(--secondary-text-color);
   margin: 0 0 13px 0;
 }
@@ -144,8 +142,8 @@ body {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-  
-color: var(--secondary-text-color);
+
+  color: var(--secondary-text-color);
 }
 
 .my-work-experience-company-block {
@@ -285,7 +283,7 @@ color: var(--secondary-text-color);
 /* my project section */
 
 .my-projects {
-  margin-bottom: 50px;
+  margin-bottom: 28px;
 }
 
 .my-projects-list {
@@ -298,7 +296,7 @@ color: var(--secondary-text-color);
 }
 
 .my-projects-item:not(:last-child) {
-  margin-bottom: 22px;
+  margin-bottom: 13px;
 }
 
 .my-project-link {
@@ -318,8 +316,8 @@ color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
-    margin-left: 10px;
-  margin-bottom: 10px;
+  margin-left: 10px;
+  /* margin-bottom: 10px; */
 }
 
 .about-project {
@@ -329,7 +327,7 @@ color: var(--secondary-text-color);
 
   font-size: 14px;
   line-height: 1.71;
-  
+
   color: var(--secondary-text-color);
 }
 
@@ -357,7 +355,7 @@ color: var(--secondary-text-color);
   width: 0;
   height: 2px;
   position: absolute;
-  bottom: -4px;
+  bottom: 1px;
   left: 0;
   background: var(--main-accent-color);
   transition: width 0.5s, left 0.5s;
